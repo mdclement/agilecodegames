@@ -2,88 +2,141 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<link href="http://www.site44.com/static/2/css/bootstrap.min.css" rel="stylesheet" />
-	<link href="http://www.site44.com/static/2/stylesheet.css" rel="stylesheet" />
+<!--	<link href="http://www.site44.com/static/2/css/bootstrap.min.css" rel="stylesheet" /> -->
 	<title>Agile Code Games</title>
 	
 	    <style type="text/css">
+body {
+background: #F0F8FF;
+font: 75%/1.4em Verdana, Helvetica, sans-serif;
+color: #5d5d5d;
+line-height: 140%;
+margin: 30px auto;
+}
+a:link, a:visited {
+color: #3e7093;
+}
+a img {
+border: none;
+}
+a:hover {
+text-decoration: none;
+}
 
-      /* Sticky footer styles
-      -------------------------------------------------- */
+		#wrap {
+width:1000px;
+margin:0 auto;
+background:#fff;
+}
 
-      html,
-      body {
-        height: 100%;
-        /* The html and body elements cannot have any padding or margin. */
-      }
+#header {
+padding:5px 10px;
+background:#000066;
+color: #fff;
+border-bottom: 6px solid #A3A300;
+}
 
-      /* Wrapper for page content to push down footer */
-      #main {
-        min-height: 100%;
-        height: auto !important;
-        height: 100%;
-        /* Negative indent footer by it's height */
-        margin: 0 auto -120px;
-      }
+#header #site-title {
+margin-right: 8px;
+padding: 8px 0;
+}
 
-      /* Set the fixed height of the footer here */
-      #push,
-      #footer {
-        height: 60px;
-      }
-      #footer {
-        background-color: #f5f5f5;
-      }
-	  
-	  #header {
-		height: 60px;
-	  }
+#header h1 {
+font-family: Georgia, "Times New Roman", Times, serif !important;
+font-size: 30px;
+font-weight: normal;
+letter-spacing: -1px;
+margin: 0;
+position: relative;
+top: 10px;
+}
 
-      /* Lastly, apply responsive CSS fixes as necessary */
-      @media (max-width: 767px) {
-        #footer {
-          margin-left: -20px;
-          margin-right: -20px;
-          padding-left: 20px;
-          padding-right: 20px;
-        }
-      }
+#header h2 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+color: #fff;
+font-weight: normal;
+letter-spacing: normal;
+margin: 0;
+padding: 0;
+}
 
-img#line { position: relative; top: -23px; width: 940px; }
-p.info { margin:0; padding: 0; font-weight: 200; font-size:24px; line-height:30px; color: #888; }
-section { padding: 35px 0 0 0; }
+#header a {
+color: #fff;
+text-decoration: none;
+}
+#header a:hover {
+color: #D6EBFF;
+}
 
-h1 { padding-bottom: 18px; }
+h1 {
+margin:0;
+}
+#nav {
+padding:5px 10px;
+}
+#main {
+float:left;
+width:730px;
+padding:10px;
+}
+h2 {
+margin:0 0 1em;
+}
+#sidebar {
+float:right;
+width:230px;
+padding:10px;
+}
+#footer {
+clear:both;
+padding:5px 10px;
+background:#cc9;
+text-align: center;
+}
+#footer p {
+margin:0;
+}
 
-hr { border-bottom: 1px solid #bbb; }
-
-.tooltip { z-index: 999999; }
-
+blockquote {
+width: 96%;
+padding: 6px;
+margin: 4px;
+background: #f9fbbe;
+border-top: 2px solid #eccb7d;
+border-bottom: 2px solid #eccb7d;
+}
     </style>
 </head>
 <body>
-	<div id="header" class="container">
-				<div class="navbar">
-					<div class="navbar-inner">
-						<div class="container">
-							<ul class="nav nav-pills pull-right"></ul>
-							Agile Code Games
-						</div>
-			</div>
-		</div>
+<div id="wrap">
+	<div id="header">
+							<h1><a href="http://agilecodegames.com">Agile Code Games</a></h1>
+							<br>
+							<h2>Games Coders Play</h2>
 	</div>
+<div id="nav"></div>
 	<div id="main" class="container hero-unit">
 		<div class="row">
 			<div class="span12">
-				<h2 style="margin-bottom: 10px">Welcome to <a href="http://agilecodegames.com">agilecodegames.com</a>.</h2>
-				<p>My blog is at <a href="http://blog.softwareontheside.com">http://blog.softwareontheside.com</a>.  I'll be using this space for talking about different Agile Code Games.</p>
+				<h1 style="margin-bottom: 10px">Welcome to Agile Code Games!</h1>
+				<blockquote><p>Often the true value of a thing isn’t the thing itself, but instead is the activity that created it.</p><p align="right">-Dave Thomas</p></blockquote>
+				<blockquote><p>Learn how to play with code: how to make mistakes, how to improvise, how to reflect, and how to measure. This is hard: we’re trained to try to do things right, to play to the score, rather than improvise.</p><p align="right">-Dave Thomas</p></blockquote>
+				<h2>What is an agile code game?</h2>
+				<p>In the agile community we often use games to teach and learn agile concepts.  Sites such as <a href="http://tastycupcakes.org/">Tasty Cupcakes</a> catalog many of the games that we use to learn.</p>
+				<p><a href="http://agilegames2013.com/">Agile Games</a> is a conference dedicated to exploring concepts such as serious play, collaboration and experiential learning. I attended last year and had a wonderful time. The only thing I came disappointed with was the lack of emphasis on coding. Most of the agile games were focused on software development processes (which are very important) and only one session was on agile coding practices.</p>
 			</div>
 		</div>
 	</div>
-	    <div id="footer">
+<div id="sidebar">
+	<h2>About Me</h2>
+	<p>My name is Mike Clement. I'm a husband, father of four, a <a href="http://mormon.org">Latter-day Saint</a> and currently a Senior Development Manager at <a href="http://ancestry.com">Ancestry.com</a>. I've worked at Microsoft, Caselle and a few other small companies.</p><p>I'm an aspiring Software Craftsman. I am one of the founding members of the <a href="http://utahsc.org">Utah Software Craftsmanship group</a>. I blog at <a href="http://blog.softwareontheside.com">Software on the Side</a>.  Opinions expressed here are my own and do not necessarily reflect those of my employer although I do hope that they coincide on occasion :)</p>
+</div>
+    <div id="footer">
       <div class="container">
-        <p class="muted credit">Site by Mike Clement.</p>
+        <p>Site by Mike Clement.</p>
       </div>
     </div>
+	</div>
 </body>
 </html>
